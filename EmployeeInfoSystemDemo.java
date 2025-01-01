@@ -93,7 +93,7 @@ class EmpFrame extends Frame implements ActionListener {
         b3.addActionListener(this);
         b4.addActionListener(this);
     }
-
+// this is not mandatory
     public void actionPerformed(ActionEvent ae){
         Button b = (Button)ae.getSource();
         if(b.getActionCommand().equalsIgnoreCase("INSERT EMP")){
